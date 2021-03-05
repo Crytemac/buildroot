@@ -1,3 +1,9 @@
+This fork of buildroot is intended to provide a ready-to-use
+configuration for the Crytemac project.
+
+------------------------------------------------------------------------
+Original README:
+
 Buildroot is a simple, efficient and easy-to-use tool to generate embedded
 Linux systems through cross-compilation.
 

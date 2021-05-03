@@ -169,12 +169,28 @@
 			};
 
 			usart0: serial@f001c000 {
+				atmel,use-dma-rx;
+				atmel,use-dma-tx;
 				status = "okay";
 			};
 
 			usart1: serial@f0020000 {
 				pinctrl-0 = <&pinctrl_usart1 &pinctrl_usart1_rts_cts>;
-				status = "disabled";
+				atmel,use-dma-rx;
+				atmel,use-dma-tx;
+				status = "okay";
+			};
+
+			usart2: serial@f8020000 {
+				atmel,use-dma-rx;
+				atmel,use-dma-tx;
+				status = "okay";
+			};
+
+			usart3: serial@f8024000 {
+				atmel,use-dma-rx;
+				atmel,use-dma-tx;
+				status = "okay";
 			};
 
 			uart0: serial@f0024000 {
